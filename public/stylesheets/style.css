@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-image: url('/images/homer1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(156, 42, 167);
+    font-family: 'Permanent Marker';
+}
+
+h1 {
+    font-size: 4rem;
+    /* margin-top: -300px; */
+}
+
+/* nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;
+} */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+p {
+    color: rgb(156, 42, 167);
+    margin: 10px 100px;
+}
+
+/* .text {
+    margin-left: 650px;
+} */
+
+a {
+    color: rgb(156, 42, 167);
+    text-decoration: none;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20%;
+}
